@@ -1,5 +1,5 @@
-#!/bin/bash
-
-echo $FLAG > /home/ctf/flag
-export FLAG=not_flag
-FLAG=not_flag
+-e #!/bin/bash
+echo $DASFLAG > /home/ctf/flag
+export DASFLAG=not_flag
+DASFLAG=not_flag
+chmod 600 /home/ctf/flag
