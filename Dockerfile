@@ -29,7 +29,7 @@ RUN sed -i "s/http:\/\/archive.ubuntu.com/http:\/\/mirrors.aliyun.com/g" /etc/ap
     mv /tmp/files/flag.sh / && \
     mv /tmp/files/readflag /home/ctf/bin/sh && \
     chmod +x /home/ctf/bin/sh && \
-    rm -rf /tmp/* /var/tmp/*
+    rm -rf /tmp/* /var/tmp/* && chmod +x /home/ctf/pwn /flag.sh /start.sh
 
 WORKDIR /home/ctf
 
